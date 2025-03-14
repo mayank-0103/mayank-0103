@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Press+Start+2P&display=swap');
+
+html {
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-height: fit-content;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 95vw;
+    margin: auto;
+    background-color: #ecf0f1;
+}
+
+.heading {
+    background-color: rgb(255, 245, 231);
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cards img {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.cards>.title {
+    font-size: 1.3em;
+    font-weight: 1000;
+    margin: 15px 0px 0px 0px;
+}
+
+.cards:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.heading,
+.cards,
+.cards img {
+    user-select: none;
+    /* Prevent text and image selection */
+    -webkit-user-drag: none;
+    /* Prevent image dragging */
+}
+
+
+.flx {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flx>img {
+    width: 50px;
+    margin: 0px 10px;
+}
+
+.flx-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flx-1>p {
+    margin: 0px;
+}
