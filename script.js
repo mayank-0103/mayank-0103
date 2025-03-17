@@ -15,5 +15,8 @@ elem_3.addEventListener("click", function () {
     window.location.href = "https://mayank-0103.github.io/Guess-the-number/";
 })
 elem_4.addEventListener("click", function () {
+    window.location.href = "https://mayank-0103.github.io/tic-tac-toe/";
+})
+elem_5.addEventListener("click", function () {
     window.location.href = "https://github.com/mayank-0103";
 })

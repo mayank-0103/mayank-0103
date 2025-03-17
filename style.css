@@ -104,6 +104,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 5vmin;
 }
 
 .flx>img {
