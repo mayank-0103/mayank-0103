@@ -3,6 +3,7 @@ const elem_1 = document.querySelector('#card1');
 const elem_2 = document.querySelector('#card2');
 const elem_3 = document.querySelector('#card3');
 const elem_4 = document.querySelector('#card4');
+const elem_5 = document.querySelector('#card5');
 
 function body_width() {
     document.body.style.width = (95/100*document.documentElement.clientWidth) + "px";
